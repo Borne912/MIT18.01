@@ -1,0 +1,55 @@
+\documentclass{ctexart}
+
+% 导言区
+
+%% 必备宏包
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{anyfontsize}
+
+%% 可选宏包
+\usepackage{hyperref}
+\usepackage{gbt7714}
+\usepackage{color}
+
+%% 初始化设置
+\bibliographystyle{gbt7714-numerical}
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+
+%% 初始化标题页
+\title{Single Variable Calculus}
+\author{Borne}
+\date{\zhtoday}
+
+% 正文
+\begin{document}
+
+%% 标题
+\maketitle
+\thispagestyle{empty}
+
+%% 目录
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+
+%% 正文内容
+\newpage
+\section{Derivative Formulas}
+\subsection{Specific Formulas}
+\subsubsection{trig functions}
+
+
+
+\subsection{General Principles}
+
+
+%% 参考文献
+\newpage
+\nocite{CalculusSingleVariable}
+\bibliography{references}
+
+\end{document}
